@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorEcommerce2.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230724165738_CreateInitial")]
+    [Migration("20231116215713_CreateInitial")]
     partial class CreateInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
